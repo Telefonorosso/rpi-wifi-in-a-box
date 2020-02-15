@@ -9,6 +9,7 @@ Tested on 2019-09-26-raspbian-buster-lite.img
 
 Step by step guide:
 ```
+# sudo su
 # apt-get install shellinabox apache2
 # nano /etc/default/shellinabox
 
