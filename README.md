@@ -44,3 +44,9 @@ DONE!
 
 Navigate to: http://[address_of_your_pi]/wifi
 
+
+Please note:
+WiFi regulatory domain is hardcoded to "IT" (Italy).
+https://github.com/Telefonorosso/rpi-wifi-in-a-box/blob/25c6cb0fab993433769ee085e9fdd20bff099e24/webmin.sh#L23
+Change it to suit your needs.
+
