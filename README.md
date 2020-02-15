@@ -18,11 +18,16 @@ SHELLINABOX_ARGS="--no-beep --disable-ssl --localhost-only --service /:0:0:/root
 # systemctl restart shellinabox.service
 # nano /etc/apache2/sites-enabled/000-default.conf
 
+<VirtualHost *:80>
+...
    <Location /wifi>
    ProxyPass http://localhost:4200/
    Order allow,deny
    Allow from all
    </Location>
+...
+</VirtualHost>
+
 
 # a2enmod proxy_http
 # apachectl restart
