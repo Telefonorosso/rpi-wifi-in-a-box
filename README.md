@@ -26,11 +26,12 @@ SHELLINABOX_ARGS="--no-beep --disable-ssl --localhost-only --service /:0:0:/root
 # a2enmod proxy_http
 # apachectl restart
 # cd
-# mkdir webmin && cd webmin
-# nano webmin.sh
-
-> incolla
-# chmod +x !$
-# nano it.locale.sh
-> incolla
+# mkdir webmin
+# cd webmin
+# wget https://raw.githubusercontent.com/Telefonorosso/rpi-wifi-in-a-box/master/webmin.sh
+# wget https://raw.githubusercontent.com/Telefonorosso/rpi-wifi-in-a-box/master/en.locale.sh
+# chmod +x webmin.sh
 ```
+DONE!
+Navigate to: http://[address_of_your_pi]/wifi
+
