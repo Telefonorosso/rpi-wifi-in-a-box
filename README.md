@@ -32,6 +32,9 @@ SHELLINABOX_ARGS="--no-beep --disable-ssl --localhost-only --service /:0:0:/root
 # wget https://raw.githubusercontent.com/Telefonorosso/rpi-wifi-in-a-box/master/en.locale.sh
 # chmod +x webmin.sh
 ```
+
+
 DONE!
+
 Navigate to: http://[address_of_your_pi]/wifi
 
